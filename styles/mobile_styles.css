@@ -23,6 +23,8 @@ html{
     font-size: 72.5%;
 }
 
+/* HEADER STYLES */
+
 .header{
     width: 100%;
 }
@@ -47,6 +49,7 @@ html{
 .header__logo-container{
     width: 100%;
     display: flex;
+    margin-bottom: 20px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -65,3 +68,98 @@ html{
     color: var(--dark_gray);
     text-decoration: none;
 }
+
+/* MAIN STYLES */
+
+.main{
+    width: 100%;
+
+}
+
+.main__margins{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(3, auto);
+    row-gap: 34px;
+    /* border: 1px solid black; */
+}
+
+.main__highlights{
+    font-family: var(--fira);
+    font-size: 2.4rem;
+    color: black;
+    margin: 0;
+}
+
+/* MAIN STYLES CARDS HIGHLIGTS */
+
+.main__card-highlight{
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+
+.card-highlight__img{
+    width: 100%;
+    min-height: 162px;
+    max-height: 180px;
+    margin: 0 auto;
+    background-image: url();
+    border: 1px solid black;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+}
+
+.card-highlight__info-card{
+    width: 100%;
+    background-color: var(--dark_green);
+}
+
+.card-highlight__info-card-container{
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 12px;
+}
+
+.card-highlight__info-card-title{
+    font-family: var(--noto);
+    font-size: 1.4rem;
+    color: white;
+    margin: 0;
+}
+
+.card-highlight__info-card-description{
+    font-family: var(--gothic);
+    font-size: 1.1rem;
+    color: var(--gray);
+    margin: 10px 0;
+}
+
+.card-highlight__info-card-button{
+    width: 80px;
+    height: 33px;
+    background-color: white;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, .6);
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: ease-in-out;
+}
+
+.card-highlight__info-card-button a{
+    color: var(--dark_green);
+    font-family: var(--fira);
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
+.card-highlight__info-card-button:active{
+    transform: scale(.9);
+}
+
+/* MAIN STYLES PART 2 */
