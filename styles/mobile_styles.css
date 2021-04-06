@@ -76,17 +76,18 @@ html{
 
 }
 
-.main__margins{
+.main__margins-highlights{
     width: 90%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: repeat(3, auto);
     row-gap: 34px;
+    margin-bottom: 32px;
     /* border: 1px solid black; */
 }
 
-.main__highlights{
+.titulares{
     font-family: var(--fira);
     font-size: 2.4rem;
     color: black;
@@ -95,14 +96,14 @@ html{
 
 /* MAIN STYLES CARDS HIGHLIGTS */
 
-.main__card-highlight{
+.main__card-highlight, .main__card-post { /* CONTIENE LAS CLASES DE LOS DESTACADOS COMO LOS POST NORMALES */
     width: 100%;
     border-radius: 5px;
     overflow: hidden;
 
 }
 
-.card-highlight__img{
+.card-highlight__img, .card-post__img{ /* CONTIENE LAS CLASES DE LOS DESTACADOS COMO LOS POST NORMALES */
     width: 100%;
     min-height: 162px;
     max-height: 180px;
@@ -163,3 +164,98 @@ html{
 }
 
 /* MAIN STYLES PART 2 */
+
+.main__margins-post{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(9, auto);
+    row-gap: 34px;
+    margin-bottom: 32px;
+}
+
+.main__post{
+    font-family: var(--fira);
+    font-size: 2.4rem;
+    color: black;
+    margin: 0;
+}
+
+.card-post__info-card{
+    width: 100%;
+}
+
+.card-post__info-card-container{
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 12px
+}
+
+.card-post__info-card-title{
+    font-family: var(--noto);
+    font-size: 1.4rem;
+    color: black;
+    margin: 0;
+}
+
+.card-post__info-card-description{
+    font-family: var(--gothic);
+    font-size: 1.1rem;
+    color: black;
+    margin: 10px 0;
+}
+
+.card-post__info-card-button{
+    width: 80px;
+    height: 33px;
+    background-color: var(--dark_green);
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, .6);
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: ease-in-out;
+}
+
+.card-post__info-card-button a{
+    color: white;
+    font-family: var(--fira);
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
+.card-post__info-card-button:active{
+    transform: scale(.9);
+}
+
+/* FOOTER STYLES */
+
+.footer{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark_green);
+
+}
+
+.footer__margins{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__logo-container{
+    width: 104px;
+    height: 50px;
+}
+
+.footer__arrow-up{
+    width: 45px;
+    height: 45px;
+}
