@@ -1,0 +1,29 @@
+.header__logo-about a, .card-highlight__info-card-title, .card-highlight__info-card-button a, .card-post__info-card-title, .card-post__info-card-button a{
+    font-size: 1.5rem;
+}
+
+.main__margins-highlights{
+    width: 85%;
+}
+
+.titulares, .main__post{
+    font-size: 2.5rem;
+}
+
+.card-highlight__img, .card-post__img{
+    min-height: 190px;
+}
+
+
+.card-highlight__info-card-description, .card-post__info-card-description{
+    font-size: 1.2rem;
+}
+
+
+.main__margins-post{
+    width: 85%;
+}
+
+.footer__margins{
+    width: 85%;
+}

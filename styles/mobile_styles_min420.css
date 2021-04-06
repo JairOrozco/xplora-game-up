@@ -1,0 +1,16 @@
+.header__logo-about a, .card-highlight__info-card-title, .card-highlight__info-card-button a, .card-post__info-card-title, .card-post__info-card-button a{
+    font-size: 1.6rem;
+}
+
+.titulares, .main__post{
+    font-size: 2.6rem;
+}
+
+.card-highlight__img, .card-post__img{
+    min-height: 220px;
+}
+
+.card-highlight__info-card-description, .card-post__info-card-description{
+    font-size: 1.3rem;
+}
+

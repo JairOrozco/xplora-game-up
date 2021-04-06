@@ -23,6 +23,7 @@ html{
     font-size: 72.5%;
 }
 
+
 /* HEADER STYLES */
 
 .header{
@@ -243,7 +244,7 @@ html{
 }
 
 .footer__margins{
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -259,3 +260,4 @@ html{
     width: 45px;
     height: 45px;
 }
+
