@@ -1,0 +1,39 @@
+.media-icon{
+    width: 33px;
+    height: 33px;
+}
+
+.header__logo{
+    width: 75px;
+    height: 75px;
+}
+
+.main__xplora-game-up{
+    font-size: 3.8rem;
+}
+
+.main__margins{
+    width: 85%;
+}
+
+.main__info-xplora-title{
+    font-size: 1.5rem;
+}
+
+.main__info-xplora-description{
+    font-size: 1.2rem;
+}
+
+.main__card-item{
+    height: 185px;
+}
+
+.card__image-author{
+    max-width: 150px;
+    height: 150px;
+}
+
+.card__info-author{
+    width: 40%;
+    height: 140px;
+}
