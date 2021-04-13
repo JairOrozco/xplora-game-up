@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /* Colors */
+    --dark_green: #216D69;
+    --green: #41A5A2;
+    --dark_gray: #939393;
+    --gray: #C4C4C4;
+    --background: #eeeeee;
+
+    /* Typography */
+    --fira: 'Fira Sans', sans-serif;
+    --noto: 'Noto Sans', sans-serif;
+    --gothic: 'Gothic A1', sans-serif;
+    --bungee: 'Bungee', cursive;
+    --squada: 'Squada One', cursive;
+}
+
+html{
+    font-size: 72.5%;
+}
+
+
+/* HEADER STYLES */
+
+.header{
+    width: 100%;
+}
+
+.header__barmedia{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--dark_green);
+
+}
+
+.media-icon{
+    width: 30px;
+    height: 30px;
+    margin: 0;
+
+}
+
+.header__logo-container{
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header__logo{
+    width: 70px;
+    height: 70px;
+    margin: 10px 0;
+}
+
+.header__logo-about a{
+    font-family: var(--fira);
+    font-size: 1.4rem;
+    color: var(--dark_gray);
+    text-decoration: none;
+}
+
+/* MAIN STYLES  */
+
+
+
+/* FOOTER STYLES */
+
+.footer{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark_green);
+
+}
+
+.footer__margins{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__logo-container{
+    width: 104px;
+    height: 50px;
+}
+
+.footer__arrow-up{
+    width: 45px;
+    height: 45px;
+}
