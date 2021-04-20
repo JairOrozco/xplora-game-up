@@ -7,3 +7,28 @@
     width: 80px;
     height: 80px;
 }
+
+.main__img-news{
+    min-height: 210px;
+}
+
+.main__title-news{    
+    font-size: 1.8rem;
+}
+
+.main__text-news{
+    font-size: 1.3rem;
+}
+
+.text-news__subtitle{
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+}
+
+.fuente__roja{
+    font-size: 1.3rem;
+}
+
+.fuente__negra{
+    font-size: 1.3rem;
+}
