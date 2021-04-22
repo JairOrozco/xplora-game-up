@@ -113,10 +113,98 @@ html{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 1px solid black;
     border-radius: 5px 5px 0 0;
     overflow: hidden;
 }
+
+.card-highlight__img.a{
+    background-image: url(../assets/img/gears.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.card-highlight__img.b{
+    background-image: url(../assets/img/fortinite.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.card-post__img.a{
+    background-image: url(../assets/img/age.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.card-post__img.b{
+    background-image: url(../assets/img/celeste.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.card-post__img.c{
+    background-image: url(../assets/img/ciber.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.card-post__img.d{
+    background-image: url(../assets/img/crash.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.card-post__img.e{
+    background-image: url(../assets/img/fifa.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.card-post__img.f{
+    background-image: url(../assets/img/god.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.card-post__img.g{
+    background-image: url(../assets/img/halo.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.card-post__img.h{
+    background-image: url(../assets/img/resident.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.card-post__img.i{
+    background-image: url(../assets/img/fortinite.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
 
 .card-highlight__info-card{
     width: 100%;
@@ -188,6 +276,7 @@ html{
 
 .card-post__info-card{
     width: 100%;
+    background-color: #ebebeb;
 }
 
 .card-post__info-card-container{
