@@ -1,0 +1,21 @@
+/* Main */
+
+.logo-info{
+    width: 1200px;
+    display: flex;
+}
+
+.cards{
+    width: 1200px;
+}
+
+.main__cards-container{
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: repeat(2, 170);
+    gap: 15px 0;
+}
+
+.main__card-item{
+    width: 390px;
+}
