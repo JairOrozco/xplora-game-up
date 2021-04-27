@@ -7,6 +7,11 @@
     width: 80px;
     height: 80px;
 }
+/* 
+.h1_title{
+    display: block;
+    margin-bottom: 20px;
+} */
 
 .header__logo-about a, .card-highlight__info-card-title, .card-highlight__info-card-button a, .card-post__info-card-title, .card-post__info-card-button a{
     font-size: 1.6rem;
