@@ -1,0 +1,54 @@
+/* Header */
+
+.header__barmedia{
+    justify-content: flex-end;
+}
+
+.media-icon{
+    width: 33px;
+    height: 33px;
+    margin-right: 40px;
+
+}
+
+/* Logo */
+
+.header__logo-about a{
+    font-size: 1.5rem;
+}
+
+/* Main */
+
+.logo-info{
+    width: 95%;
+    display: flex;
+    
+}
+
+.main__identity-container{
+    width: 50%;
+    margin-top: 0;
+}
+
+.main__info-xplora{
+    width: 50%;
+}
+
+.main__info-xplora-description{
+    width: 100%;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+}
+
+/* Cards */
+
+.main__cards-container{
+    display: grid;
+    grid-template-columns: repeat(2, 415px);
+    grid-template-rows: repeat(3, 170);
+    gap: 15px;
+}
+
+.main__card-item{
+    margin: 0;
+}
