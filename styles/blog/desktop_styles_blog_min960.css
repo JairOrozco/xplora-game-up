@@ -1,0 +1,30 @@
+/* Header */
+
+.header__barmedia{
+    justify-content: flex-end;
+}
+
+.media-icon{
+    width: 33px;
+    height: 33px;
+    margin-right: 40px;
+
+}
+
+/* Main */
+
+.main__title-news{    
+    font-size: 2.4rem;
+}
+
+.date-author-info{
+    font-size: 1.2rem;
+}
+
+.main__text-news{
+    font-size: 1.4rem;
+}
+
+.text-news__subtitle{
+    font-size: 2.2rem;
+}
