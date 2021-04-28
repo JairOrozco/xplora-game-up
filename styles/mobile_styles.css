@@ -23,6 +23,9 @@ html{
     font-size: 72.5%;
 }
 
+a{
+    text-decoration: none;
+}
 
 /* HEADER STYLES */
 
@@ -44,7 +47,11 @@ html{
     width: 30px;
     height: 30px;
     margin: 0;
+    transition: ease-in-out;
+}
 
+.media-icon:hover{
+    transform: scale(1.1);
 }
 
 .header__logo-container{
@@ -255,8 +262,12 @@ html{
     text-decoration: none;
 }
 
+.card-highlight__info-card-button:hover{
+    transform: scale(1.05);
+}
+
 .card-highlight__info-card-button:active{
-    transform: scale(.9);
+    transform: scale(.95);
 }
 
 /* MAIN STYLES PART 2 */
@@ -328,8 +339,12 @@ html{
     text-decoration: none;
 }
 
+.card-post__info-card-button:hover{
+    transform: scale(1.05);
+}
+
 .card-post__info-card-button:active{
-    transform: scale(.9);
+    transform: scale(.95);
 }
 
 /* FOOTER STYLES */

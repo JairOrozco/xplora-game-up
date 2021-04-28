@@ -52,3 +52,9 @@
 .main__card-item{
     margin: 0;
 }
+
+/* Footer */
+
+.footer__margins{
+    width: 95%;
+}

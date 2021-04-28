@@ -45,7 +45,11 @@ html{
     width: 30px;
     height: 30px;
     margin: 0;
+    transition: ease-in-out;
+}
 
+.media-icon:hover{
+    transform: scale(1.1);
 }
 
 .header__logo-container{
@@ -141,7 +145,7 @@ html{
     width: 100%;
     font-family: var(--gothic);
     font-size: 1.1rem;
-    line-height: 1.6rem;
+    line-height: 2.4rem;
     color: black;
 }
 
@@ -149,7 +153,7 @@ html{
     width: 100%;
     font-family: var(--noto);
     font-size: 1.4rem;
-    line-height: 1.8rem;
+    line-height: 2.4rem;
     text-transform: uppercase;
     margin: 12px 0;
     color: black;
@@ -203,8 +207,12 @@ html{
     text-decoration: none;
 }
 
+.button-returnHome:hover{
+    transform: scale(1.1);
+}
+
 .button-returnHome:active{
-    transform: scale(.9);
+    transform: scale(.95);
 }
 
 .main__contact-colaboration{
@@ -252,6 +260,7 @@ html{
     display: flex;
     align-items: center;
     margin-bottom: 5px;
+    transition: ease-in-out;
 }
 
 .contact-colaboration__social-icon.mail{
@@ -260,6 +269,15 @@ html{
     display: flex;
     align-items: center;
     margin-bottom: 12px;
+    transition: ease-in-out;
+}
+
+.contact-colaboration__social-icon.facebook:hover{
+    transform: scale(1.1);
+}
+
+.contact-colaboration__social-icon.mail:hover{
+    transform: scale(1.1);
 }
 
 .social__media > a{
